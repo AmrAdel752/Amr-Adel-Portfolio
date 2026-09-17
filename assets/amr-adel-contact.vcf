@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Adel;Amr;;;
+FN:Amr Adel
+TITLE:.NET Full Stack Developer
+TEL;TYPE=CELL,VOICE:+201148164929
+EMAIL;TYPE=INTERNET,WORK:amr.adel20@outlook.com
+URL;TYPE=LinkedIn:https://www.linkedin.com/in/amr-adel-ba358a220
+URL;TYPE=GitHub:https://github.com/AmrAdel752
+NOTE:.NET Core | ASP.NET | Angular | SQL Server | ERP & Fintech
+END:VCARD
