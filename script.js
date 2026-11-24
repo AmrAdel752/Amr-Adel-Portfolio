@@ -919,14 +919,24 @@ function initFreelanceShowcase() {
 
     const tagsHtml = proj.tags.map(tag => `<span class="showcase-tag">${tag}</span>`).join("");
 
+    const hasVideo = !!proj.videoUrl;
+    const liveBadgeHtml = hasVideo
+      ? `<div class="showcase-live-indicator"><span class="showcase-live-dot"></span><span>VIDEO DEMO</span></div>`
+      : proj.liveUrl
+        ? `<div class="showcase-live-indicator"><span class="showcase-live-dot"></span><span>LIVE SITE</span></div>`
+        : "";
+    const liveLinkHtml = proj.liveUrl
+      ? `<a href="${proj.liveUrl}" target="_blank" rel="noopener" class="btn-showcase-details" style="text-decoration:none;">
+          <span>Visit Live Site</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        </a>`
+      : "";
+
     card.innerHTML = `
-      <div class="showcase-media" title="Hover to preview full demo">
+      <div class="showcase-media" title="${hasVideo ? 'Hover to preview full demo' : proj.liveUrl ? 'Click to visit the live site' : ''}">
         <img src="${proj.thumbnail}" alt="${proj.title}" class="showcase-thumb" loading="lazy">
         <div class="showcase-category-badge">${proj.categoryLabel}</div>
-        <div class="showcase-live-indicator">
-          <span class="showcase-live-dot"></span>
-          <span>VIDEO DEMO</span>
-        </div>
+        ${liveBadgeHtml}
       </div>
       <div class="showcase-body">
         <h3 class="showcase-title">${proj.title}</h3>
@@ -935,6 +945,7 @@ function initFreelanceShowcase() {
           ${tagsHtml}
         </div>
         <div class="showcase-actions">
+          ${liveLinkHtml}
           <button class="btn-showcase-details" data-id="${proj.id}" type="button">
             <span>Details & Docs</span>
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -947,36 +958,38 @@ function initFreelanceShowcase() {
       </div>
     `;
 
-    // 2. Large Video Hover Preview (plays prominent screen while hovering)
+    // 2. Large Video Hover Preview (plays prominent screen while hovering) — only for demo projects with a video
     const media = card.querySelector(".showcase-media");
 
-    media.addEventListener("mouseenter", () => {
-      if (!hoverPreview || !hoverPreviewVideo) return;
-      if (hoverPreviewTitle) hoverPreviewTitle.textContent = proj.title;
+    if (hasVideo) {
+      media.addEventListener("mouseenter", () => {
+        if (!hoverPreview || !hoverPreviewVideo) return;
+        if (hoverPreviewTitle) hoverPreviewTitle.textContent = proj.title;
 
-      const encodedUrl = encodeURI(proj.videoUrl);
-      if (hoverPreviewVideo.getAttribute("data-current-src") !== proj.videoUrl) {
-        hoverPreviewVideo.src = encodedUrl;
-        hoverPreviewVideo.setAttribute("data-current-src", proj.videoUrl);
-        hoverPreviewVideo.load();
-      }
+        const encodedUrl = encodeURI(proj.videoUrl);
+        if (hoverPreviewVideo.getAttribute("data-current-src") !== proj.videoUrl) {
+          hoverPreviewVideo.src = encodedUrl;
+          hoverPreviewVideo.setAttribute("data-current-src", proj.videoUrl);
+          hoverPreviewVideo.load();
+        }
 
-      hoverPreview.classList.add("active");
-      hoverPreview.setAttribute("aria-hidden", "false");
+        hoverPreview.classList.add("active");
+        hoverPreview.setAttribute("aria-hidden", "false");
 
-      const playPromise = hoverPreviewVideo.play();
-      if (playPromise !== undefined) {
-        playPromise.catch(() => {});
-      }
-    });
+        const playPromise = hoverPreviewVideo.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {});
+        }
+      });
 
-    media.addEventListener("mouseleave", () => {
-      if (!hoverPreview || !hoverPreviewVideo) return;
-      hoverPreview.classList.remove("active");
-      hoverPreview.setAttribute("aria-hidden", "true");
-      hoverPreviewVideo.pause();
-      hoverPreviewVideo.currentTime = 0;
-    });
+      media.addEventListener("mouseleave", () => {
+        if (!hoverPreview || !hoverPreviewVideo) return;
+        hoverPreview.classList.remove("active");
+        hoverPreview.setAttribute("aria-hidden", "true");
+        hoverPreviewVideo.pause();
+        hoverPreviewVideo.currentTime = 0;
+      });
+    }
 
     // 3. Open Details & Docs Modal on Click
     const openBtn = card.querySelector(".btn-showcase-details");

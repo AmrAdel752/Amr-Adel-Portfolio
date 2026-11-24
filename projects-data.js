@@ -4,6 +4,155 @@
  */
 window.freelanceProjectsData = [
   {
+    "id": "elsayed-hassan-auto",
+    "folder": "El Sayed Hassan Auto",
+    "title": "El Sayed Hassan Auto",
+    "subtitle": "A Full-Stack Nissan Service Center Platform with Admin Dashboard — .NET Web API & Angular",
+    "category": "client",
+    "categoryLabel": "Live Client Business",
+    "tags": [
+      ".NET Web API",
+      "Angular",
+      "SQL Server",
+      "Admin Dashboard",
+      "Bilingual AR/EN"
+    ],
+    "thumbnail": "assets/project-thumbnails/elsayed_hassan_auto.jpg",
+    "liveUrl": "https://elsayedhassanauto.com/",
+    "hasMd": true,
+    "mdPath": "Websites Demos Vedios/El Sayed Hassan Auto/El-Sayed-Hassan-Auto-Documentation.md",
+    "overview": "El Sayed Hassan Auto is a Nissan-only maintenance center (Faisal / Giza) that needed a complete digital front door: a bilingual (Arabic/English) marketing site that converts visitors into WhatsApp bookings, plus a private admin dashboard so the business owner can manage services, offers, spare parts, and incoming bookings without touching code.\n\n- **Type:** Real client project — live, in-production business platform\n- **Status:** Live and deployed (elsayedhassanauto.com)\n- **Visual direction:** High-contrast red-and-black automotive branding with a bilingual AR/EN toggle",
+    "features": [
+      "Home hero with live trust stats and direct WhatsApp CTA",
+      "9-service catalog (Mechanics, Periodic Maintenance, Suspension, A/C, Spare Parts, Oils, Tire Alignment, Washing, Body & Paint)",
+      "Interactive clickable car diagram linking hotspots to services",
+      "Limited-time offers with live countdown timers",
+      "Full Nissan model lineup coverage (Sunny to Patrol)",
+      "Spare parts & oils catalog with per-model WhatsApp price inquiry",
+      "Multi-step guided WhatsApp booking form",
+      "Real dated customer reviews per service type",
+      "Private admin dashboard for services, offers, parts & bookings"
+    ],
+    "techStackText": "- .NET Core Web API (backend)\n- Angular (frontend)\n- SQL Server (database)\n- WhatsApp deep-link integration",
+    "fullMarkdown": "# El Sayed Hassan Auto\n\n**A Full-Stack Nissan Service Center Platform with Admin Dashboard — .NET Web API & Angular**\n\nUnlike the concept projects elsewhere in this portfolio, this is a genuine client business: a fully built and deployed platform for a real Nissan-specialist service center in Giza, currently live at **elsayedhassanauto.com**.\n\n---\n\n## Overview\n\nEl Sayed Hassan Auto is a Nissan-only maintenance center (Faisal / Giza) that needed a complete digital front door: a bilingual (Arabic/English) marketing site that converts visitors into WhatsApp bookings, plus a private admin dashboard so the business owner can manage services, offers, spare parts, and incoming bookings without touching code.\n\n- **Type:** Real client project — live, in-production business platform\n- **Status:** Live and deployed (elsayedhassanauto.com)\n- **Visual direction:** High-contrast red-and-black automotive branding with a bilingual AR/EN toggle\n\n## Tech Stack\n\n- .NET Core Web API (backend)\n- Angular (frontend)\n- SQL Server (database)\n- WhatsApp deep-link integration for bookings\n\n## Key Features\n\n### Home\n- Hero section (\"عربيتك النيسان في إيد أمينة\") with live stats (years of experience, specialization %, days/hours open)\n- Direct WhatsApp \"Book Now\" call-to-action throughout\n\n### Services Catalog\n- Nine dedicated services (Mechanics, Periodic Maintenance, Suspension, A/C, Spare Parts, Oils, Tire Alignment, Washing, Body & Paint), each with its own detail panel\n\n### Interactive Car Diagram\n- Clickable hotspots on a car illustration (Engine & Transmission, Fluids, A/C, Suspension & Brakes, Periodic Maintenance, Spare Parts) linking straight to the relevant service\n\n### Limited-Time Offers\n- Live countdown-timer discount campaigns (e.g. a 35% maintenance package offer) to drive urgency\n\n### Nissan Model Coverage\n- Full model lineup supported (Sunny, Sentra, Qashqai, X-Trail, Juke, Tiida, Patrol, Kicks, Magnite, Navara, Pathfinder, Altima, Maxima, Murano)\n\n### Spare Parts & Oils Catalog\n- Genuine/agency-sourced parts and oils listed by compatible model, each with a \"Ask for Price\" WhatsApp action\n\n### WhatsApp Booking Flow\n- Multi-step booking form (car model → service → preferred day/time → notes) that generates a pre-filled WhatsApp message — no typing required from the customer\n\n### Customer Reviews\n- Real dated customer testimonials per service type (maintenance, A/C, suspension, etc.)\n\n### Admin Dashboard\n- Private back-office for the business owner to manage services, time-limited offers, spare-parts catalog, and incoming bookings — the public site and the dashboard share the same .NET Web API\n\n### Location & Contact\n- Address, primary/secondary phone numbers, live \"open now / closed\" working-hours indicator, and an embedded map link\n\n## Pages / Sections\n\n| Section | Purpose |\n|---|---|\n| Home | Hero, trust stats, primary WhatsApp CTA |\n| Services | Full service catalog with detail panels |\n| Interactive Diagram | Visual way to find the right service |\n| Offers | Time-limited discount campaigns |\n| Parts & Oils | Spare parts catalog with price inquiry |\n| Booking | Guided WhatsApp booking form |\n| Reviews / Contact | Social proof, location, working hours |\n| Admin Dashboard | Owner-facing content & booking management |\n\n## Notes for Portfolio Presentation\n\n- This is a **real, deployed client platform** for an actual operating business — not a concept or demo build. Services, offers, parts, and reviews are the business's genuine content.\n- Demonstrates end-to-end delivery: public marketing site, bilingual UX, WhatsApp-first conversion flow, and a real custom admin dashboard backed by a .NET Web API.\n- Live site: [elsayedhassanauto.com](https://elsayedhassanauto.com/)\n\n---\n*Documentation prepared for portfolio use — Amr Adel*\n"
+  },
+  {
+    "id": "maratebalhamd",
+    "folder": "Maratebalhamd",
+    "title": "Maratebalhamd — Al-Hamd Mattress Showroom",
+    "subtitle": "An Authorized Habitat, Janssen & Sleep High Dealer Platform — .NET Web API & Angular",
+    "category": "client",
+    "categoryLabel": "Live Client Business",
+    "tags": [
+      ".NET Web API",
+      "Angular",
+      "SQL Server",
+      "Product Catalog",
+      "Lead Generation"
+    ],
+    "thumbnail": "assets/project-thumbnails/maratebalhamd.jpg",
+    "liveUrl": "https://maratebalhamd.com/",
+    "hasMd": true,
+    "mdPath": "Websites Demos Vedios/Maratebalhamd/Maratebalhamd-Documentation.md",
+    "overview": "Al-Hamd Mattress Showroom is an authorized dealer for three mattress brands (Habitat, Janssen, Sleep High) and needed a site that could do what a physical showroom visit does: let a customer compare brands, understand mattress types, find their size, and get a real price from the owner — all funneled through WhatsApp.\n\n- **Type:** Real client project — live, in-production business platform\n- **Status:** Live and deployed (maratebalhamd.com)\n- **Visual direction:** Warm, trustworthy green-and-cream palette with real showroom photography",
+    "features": [
+      "Brand catalog (Habitat, Janssen, Sleep High) with construction details",
+      "Per-model product listings with direct WhatsApp price inquiry",
+      "3-question Mattress Finder recommendation quiz",
+      "Mattress type comparison guide (spring, pocket, medical, pillow-top)",
+      "Full Egyptian mattress size guide",
+      "Real showroom photo gallery, filterable by category",
+      "FAQ covering warranty, delivery & payment terms",
+      "Location, working hours & direct owner contact"
+    ],
+    "techStackText": "- .NET Core Web API (backend)\n- Angular (frontend)\n- SQL Server (database)\n- WhatsApp deep-link integration",
+    "fullMarkdown": "# Maratebalhamd — Al-Hamd Mattress Showroom\n\n**An Authorized Habitat, Janssen & Sleep High Dealer Platform — .NET Web API & Angular**\n\nA genuine client business: a live e-commerce-style showroom site for an authorized mattress dealer in Faisal, Giza, currently deployed at **maratebalhamd.com**.\n\n---\n\n## Overview\n\nAl-Hamd Mattress Showroom is an authorized dealer for three mattress brands (Habitat, Janssen, Sleep High) and needed a site that could do what a physical showroom visit does: let a customer compare brands, understand mattress types, find their size, and get a real price from the owner — all funneled through WhatsApp.\n\n- **Type:** Real client project — live, in-production business platform\n- **Status:** Live and deployed (maratebalhamd.com)\n- **Visual direction:** Warm, trustworthy green-and-cream palette with real showroom photography\n\n## Tech Stack\n\n- .NET Core Web API (backend)\n- Angular (frontend)\n- SQL Server (database)\n- WhatsApp deep-link integration for price inquiries\n\n## Key Features\n\n### Brand Catalog\n- Three authorized brands (Habitat, Janssen, Sleep High) each with its own showcase section and construction details (spring type, memory foam, latex layer, toppers, waterproofing)\n\n### Product Listings\n- Individual mattress models per brand (e.g. Habitat Contract, Habitat Breeze, Habitat Super Heaven), each with height/spec details and a direct \"Ask for Price\" WhatsApp action that includes the model name\n\n### Mattress Finder Quiz\n- A 3-question guided tool (sleep position, back pain, firmness preference) that recommends a mattress type and can be sent straight to the owner on WhatsApp\n\n### Mattress Type Guide\n- Side-by-side comparison of connected springs (Bonnell), pocket springs, medical/orthopedic mattresses, and pillow-top/memory foam — stability, motion isolation, and softness rated for each\n\n### Size Guide\n- Full Egyptian mattress size reference (90×195 up to 180×200) with a one-tap \"ask about this size\" action\n\n### Real Showroom Gallery\n- Genuine photos from inside the physical showroom (mattresses, cross-section layers, pillows & linens), filterable by category\n\n### FAQ & Location\n- Common buyer questions (pricing, warranty — 10-year factory warranty, delivery, installment/down-payment terms) plus address, working hours, and a direct line to the owner, Ahmed Saad\n\n## Pages / Sections\n\n| Section | Purpose |\n|---|---|\n| Home | Hero, trust badges (authorized dealer, 10-yr warranty, free delivery) |\n| Brands | Habitat / Janssen / Sleep High showcase |\n| Catalog | Per-model listings with WhatsApp price inquiry |\n| Mattress Finder | 3-question recommendation quiz |\n| Type & Size Guides | Educational comparison tools |\n| Gallery | Real showroom photography |\n| FAQ / Contact | Buyer questions, location, owner contact |\n\n## Notes for Portfolio Presentation\n\n- This is a **real, deployed client platform** for an actual operating showroom — all brands, products, and photography are the business's genuine content.\n- Demonstrates a full WhatsApp-first commerce flow for a product category (mattresses) where price isn't shown publicly but is requested per model/size.\n- Live site: [maratebalhamd.com](https://maratebalhamd.com/)\n\n---\n*Documentation prepared for portfolio use — Amr Adel*\n"
+  },
+  {
+    "id": "hamada-ramadan-painter",
+    "folder": "Hamada Ramadan Painter",
+    "title": "Hamada Ramadan — Nasr City Painter & Finishing",
+    "subtitle": "A Lead-Generation Landing Page for an Interior Finishing Contractor — .NET Web API & Angular",
+    "category": "client",
+    "categoryLabel": "Live Client Business",
+    "tags": [
+      ".NET Web API",
+      "Angular",
+      "Before/After Gallery",
+      "Lead Generation"
+    ],
+    "thumbnail": "assets/project-thumbnails/hamada_ramadan_painter.jpg",
+    "liveUrl": "https://hamada-ramadan-painter.vercel.app/",
+    "hasMd": true,
+    "mdPath": "Websites Demos Vedios/Hamada Ramadan Painter/Hamada-Ramadan-Painter-Documentation.md",
+    "overview": "Hamada Ramadan needed a way to turn his real finishing work (painting, parquet polishing, wall putty, ceiling decor) into booked site inspections, without relying only on word of mouth. The site is built around one goal: get a visitor to send an inspection request over WhatsApp after seeing real, convincing proof of work.\n\n- **Type:** Real client project — live lead-generation platform\n- **Status:** Live and deployed\n- **Visual direction:** Warm, residential palette built around real apartment photography and video",
+    "features": [
+      "6 core services (Finishing, Paint, Parquet Polishing, Wall Putty, Ceiling Decor, Wall Panels)",
+      "Real, lightbox-enabled work photo gallery labeled by room and finish",
+      "Embedded YouTube video showcase from the contractor's own channel",
+      "Side-by-side before/after video comparison of a delivered apartment",
+      "4-step process explainer (Contact → Inspection → Quote → Delivery)",
+      "WhatsApp inspection-request lead form",
+      "FAQ covering coverage area, turnaround time & materials"
+    ],
+    "techStackText": "- .NET Core Web API (backend)\n- Angular (frontend)\n- SQL Server (database)\n- WhatsApp deep-link integration\n- YouTube embed integration",
+    "fullMarkdown": "# Hamada Ramadan — Nasr City Painter & Finishing\n\n**A Lead-Generation Landing Page for an Interior Finishing Contractor — .NET Web API & Angular**\n\nA genuine client business: a live lead-generation site for an interior painting and finishing contractor in Nasr City, Cairo.\n\n---\n\n## Overview\n\nHamada Ramadan needed a way to turn his real finishing work (painting, parquet polishing, wall putty, ceiling decor) into booked site inspections, without relying only on word of mouth. The site is built around one goal: get a visitor to send an inspection request over WhatsApp after seeing real, convincing proof of work.\n\n- **Type:** Real client project — live lead-generation platform\n- **Status:** Live and deployed\n- **Visual direction:** Warm, residential palette built around real apartment photography and video\n\n## Tech Stack\n\n- .NET Core Web API (backend)\n- Angular (frontend)\n- SQL Server (database)\n- WhatsApp deep-link integration for inspection requests\n- YouTube embed integration for video proof-of-work\n\n## Key Features\n\n### Services\n- Six core services (Full Apartment Finishing, Modern Paint, Parquet Polishing, Wall Putty & Sanding, Ceiling Decor & Lighting, Wall Panels & Decor), each with its own inspection-request action\n\n### Real Work Photo Gallery\n- Genuine, lightbox-enabled photo gallery from completed apartments, labeled by room and finish type (LED ceiling + parquet, herringbone parquet, finished bathroom, hallway lighting, etc.)\n\n### YouTube Video Showcase\n- Embedded videos pulled from the contractor's own YouTube channel, giving prospects a walkthrough of a delivered apartment\n\n### Before/After Comparison\n- Side-by-side video comparison of the same apartment before work started and after handover — tangible proof of transformation\n\n### Guided Process\n- Four-step explainer (Contact → Site Inspection → Fixed Quote → Execution & Delivery) that sets clear expectations before a customer commits\n\n### WhatsApp Inspection Request Form\n- Short lead form (name, area, type of work) that packages the request straight into a WhatsApp message to the contractor — even while he's on a job, the lead is captured\n\n### FAQ\n- Common pre-booking questions (how inspection works, coverage area, parquet polishing availability, turnaround time, who supplies materials)\n\n## Pages / Sections\n\n| Section | Purpose |\n|---|---|\n| Home | Hero, trust signal (\"available for inspections this week\") |\n| Services | 6 finishing services with CTA |\n| Our Work | Real photo gallery |\n| Videos | YouTube showcase + before/after comparison |\n| Process | 4-step expectation-setting explainer |\n| Contact | WhatsApp lead form |\n\n## Notes for Portfolio Presentation\n\n- This is a **real, deployed client platform** for an actual operating contractor — all photos, videos, and services are genuine completed work.\n- Demonstrates a conversion-focused landing page pattern: real proof-of-work media doing the persuading, with a single low-friction WhatsApp action as the only CTA.\n- Live site: [hamada-ramadan-painter.vercel.app](https://hamada-ramadan-painter.vercel.app/)\n\n---\n*Documentation prepared for portfolio use — Amr Adel*\n"
+  },
+  {
+    "id": "hamada-elgabry-stables",
+    "folder": "Hamada El-Gabry Stables",
+    "title": "Hamada El-Gabry Stables",
+    "subtitle": "A Horse Riding & Desert Safari Booking Platform at the Giza Pyramids — .NET Web API & Angular",
+    "category": "client",
+    "categoryLabel": "Live Client Business",
+    "tags": [
+      ".NET Web API",
+      "Angular",
+      "SQL Server",
+      "Tourism Booking",
+      "Bilingual AR/EN"
+    ],
+    "thumbnail": "assets/project-thumbnails/hamada_elgabry_stables.jpg",
+    "liveUrl": "https://hamadaelgabrystables.com/",
+    "hasMd": true,
+    "mdPath": "Websites Demos Vedios/Hamada El-Gabry Stables/Hamada-El-Gabry-Stables-Documentation.md",
+    "overview": "Hamada El-Gabry Stables needed a booking site that could convert tourists and locals browsing online straight into confirmed WhatsApp reservations — across a wide menu of experiences (horse riding, camel riding, carriage rides, beach buggies, desert safaris, horse shows, and riding lessons) with live pricing and time-of-day guidance (sunrise, sunset, night rides).\n\n- **Type:** Real client project — live, in-production tourism business\n- **Status:** Live and deployed, bilingual Arabic/English, rated 4.9/5 from 2,600+ Google reviews\n- **Visual direction:** Cinematic desert/pyramid photography with warm gold accents",
+    "features": [
+      "Hero with live Google rating badge (4.9 / 2,600+ reviews) and 24-hour availability indicator",
+      "12-service booking catalog with live per-hour pricing",
+      "Signature time-slot journeys (Sunrise, Sunset, Night Ride, Desert Safari)",
+      "5-step visual trip timeline",
+      "Pre-built package bundles with WhatsApp price inquiry",
+      "Experience-level trip finder quiz",
+      "Multi-service WhatsApp booking form with date/time/party-size",
+      "Real attributed Google review testimonials"
+    ],
+    "techStackText": "- .NET Core Web API (backend)\n- Angular (frontend)\n- SQL Server (database)\n- WhatsApp deep-link integration",
+    "fullMarkdown": "# Hamada El-Gabry Stables\n\n**A Horse Riding & Desert Safari Booking Platform at the Giza Pyramids — .NET Web API & Angular**\n\nA genuine client business: a live tourism booking platform for a long-established horse stable in Nazlet El-Semman, right next to the Giza Pyramids, rated 4.9/5 from 2,600+ Google reviews.\n\n---\n\n## Overview\n\nHamada El-Gabry Stables needed a booking site that could convert tourists and locals browsing online straight into confirmed WhatsApp reservations — across a wide menu of experiences (horse riding, camel riding, carriage rides, beach buggies, desert safaris, horse shows, and riding lessons) with live pricing and time-of-day guidance (sunrise, sunset, night rides).\n\n- **Type:** Real client project — live, in-production tourism business\n- **Status:** Live and deployed, bilingual Arabic/English\n- **Visual direction:** Cinematic desert/pyramid photography with warm gold accents\n\n## Tech Stack\n\n- .NET Core Web API (backend)\n- Angular (frontend)\n- SQL Server (database)\n- WhatsApp deep-link integration with an auto-filled booking message\n\n## Key Features\n\n### Home\n- Hero video/photo of horseback riding at the Pyramids with a live Google rating badge (4.9 from 2,600+ reviews) and an \"open 24 hours\" indicator\n\n### Services Catalog\n- Twelve bookable services: Pyramid horse riding, Arabian horse riding, beach buggy rental, camel riding, carriage (karetta) riding, desert safaris, dancing-horse shows, horse tabkish shows, desert BBQ nights, birthdays/events, riding lessons, and horse buying/selling — each with live per-hour pricing\n\n### Signature Journeys\n- Curated time-slot experiences (Sunrise Ride, Sunset Ride, Night Ride, Desert Safari) each with a defined time window and description\n\n### Trip Timeline\n- A 5-step visual walkthrough of what an actual booked trip looks like, from stable welcome to the panoramic photo stop to safe return\n\n### Package Builder\n- Pre-built packages (Pyramid Tour, Sunrise/Sunset Package, Safari Adventure, Family Package) with duration options and an \"ask for price on WhatsApp\" flow\n\n### Trip Finder Quiz\n- A short multi-question tool that recommends the right experience based on the visitor's riding experience level\n\n### WhatsApp Booking Form\n- A detailed form (service, date, time slot, duration, party size, nationality, notes) that assembles a complete, pre-filled WhatsApp booking message — multiple services can be selected at once\n\n### Social Proof\n- Real, attributed Google review testimonials and a live-updating 4.9★ rating summary\n\n### FAQ & Location\n- Pricing transparency (e.g. riding at 400 EGP/hour, buggy at 600 EGP/hour), what's included, and exact location details (Nazlet El-Semman, Giza) with a map link\n\n## Pages / Sections\n\n| Section | Purpose |\n|---|---|\n| Home | Hero, trust badges, primary WhatsApp CTA |\n| Services | Full bookable experience catalog with pricing |\n| Journeys / Packages | Time-slot experiences & bundled packages |\n| Trip Finder | Experience-level recommendation quiz |\n| Gallery / Reviews | Real photos, video and Google testimonials |\n| Booking Form | Multi-service WhatsApp booking request |\n| FAQ / Location | Pricing, logistics, map & contact |\n\n## Notes for Portfolio Presentation\n\n- This is a **real, deployed client platform** for an actual operating tourism business — pricing, reviews, and service menu are the business's genuine content.\n- Demonstrates a conversion-focused tourism booking flow: multi-service selection, time-of-day experience curation, and a single WhatsApp-based checkout, backed by a custom .NET Web API.\n- Live site: [hamadaelgabrystables.com](https://hamadaelgabrystables.com/)\n\n---\n*Documentation prepared for portfolio use — Amr Adel*\n"
+  },
+  {
+    "id": "nextonix",
+    "folder": "Nextonix",
+    "title": "Nextonix",
+    "subtitle": "Agency Showcase — Built by Amr Adel",
+    "category": "angular",
+    "categoryLabel": "Agency Showcase",
+    "tags": [
+      "Agency Web",
+      "Digital Solutions",
+      "Modern UI",
+      "Branding"
+    ],
+    "thumbnail": "assets/project-thumbnails/nextonix.jpg",
+    "videoUrl": "Websites Demos Vedios/Nextonix/Nextonix_LinkedIn_Video_NoMusic.mp4",
+    "hasMd": false,
+    "mdPath": "",
+    "overview": "Nextonix is an interactive web showcase highlighting modern responsive UI design, frontend architecture, and engaging digital experience.",
+    "features": [],
+    "techStackText": "",
+    "fullMarkdown": ""
+  },
+  {
     "id": "dr-neven",
     "folder": "DR Neven",
     "title": "Dr. Nevine Dargham — Dermatology & Cosmetic Clinic",
@@ -207,28 +356,6 @@ window.freelanceProjectsData = [
     ],
     "techStackText": "- ASP.NET Core",
     "fullMarkdown": "# Al-Mohandseen (المهندسين)\n\n**A Construction Materials Marketplace with Request-for-Quote Ordering — ASP.NET Core**\n\nAn Arabic (RTL) B2B-style marketplace connecting buyers with construction materials and tools — cement, ready-mix concrete, steel, sand, blocks — through a request-for-quote flow rather than a standard checkout, paired with a full admin back office to manage the catalogue and incoming requests.\n\n---\n\n## Overview\n\nAl-Mohandseen (\"The Engineers\") is a freelance client project built for a graduation team: a construction-materials marketplace positioning itself as \"Egypt's largest building materials market.\" Buyers browse products and categories, request price quotes on specific materials, and track their own requests, while admins manage the full product catalogue and monitor incoming demand.\n\n- **Type:** Freelance client project, built for a graduation team (portfolio use)\n- **Status:** Demo — catalogue and requests shown are project/demo data\n- **Language/Direction:** Arabic (RTL)\n- **Visual direction:** Clean white UI with a construction-site hero image and a deep green primary accent\n\n## Tech Stack\n\n- ASP.NET Core\n\n## Key Features\n\n### Home\n- Hero (\"Largest Construction Market in Egypt\") with trust stats (24/7 request fulfillment, 7 main categories, 12 available materials)\n- Quick category pills for jumping straight into a material type: Electrical Materials, Sand & Raw Materials, Tiles & Bricks, Ready-Mix Concrete, Cement, Steel & Metals\n\n### Product Catalogue\n- Featured Products grid on the homepage\n- Full product listing with category filtering and search\n- Product detail pages showing price, unit, and a direct request action (e.g. Ready-Mix Concrete at 2,200 EGP/m³)\n\n### Request a Price Quote (RFQ)\n- Instead of an instant-buy cart, buyers submit a structured quote request: material needed, quantity, unit, preferred payment terms (cash/installments), and additional notes\n- This mirrors how construction-materials procurement actually works — pricing and availability are confirmed before purchase\n\n### Contact\n- Direct inquiry form for general questions, alongside company contact details in the footer\n\n### Authentication\n- Registration and secure login (built on ASP.NET Core Identity)\n\n---\n\n## Client Account Area\n\n### My Requests\n- A dedicated page where a logged-in buyer can see the status of all the price-quote requests they've submitted, with a clear empty state and a direct \"Request a Quote Now\" prompt when they have none yet\n\n---\n\n## Admin Dashboard\n\n### Dashboard Overview\n- At-a-glance stats: new quote requests, pending orders, total products, total customers\n- Recent price-quote requests panel for quick triage\n\n### Product Management\n- Full CRUD product table — name, category, price — with inline edit/delete actions, covering the entire catalogue\n\n### Quote Requests & Orders\n- Dedicated views for incoming price-quote requests and orders, separate from the public-facing catalogue\n\n## Pages / Sections\n\n| Area | Section | Purpose |\n|---|---|---|\n| Public | Home / Products | Browse the materials catalogue |\n| Public | Product Detail | Pricing & request-a-quote |\n| Public | Contact | General inquiries |\n| Client | My Requests | Track submitted quote requests |\n| Admin | Dashboard | Business overview |\n| Admin | Products | Full catalogue CRUD |\n| Admin | Quote Requests / Orders | Incoming demand management |\n\n## Notes for Portfolio Presentation\n\n- Built as a freelance engagement for a graduation team; product catalogue, requests, and stats shown are project/demo data.\n- The request-for-quote model (rather than instant checkout) reflects a deliberate fit for a construction-materials buying process, where pricing depends on quantity, delivery, and payment terms.\n- Companion video walkthrough available (`Al-Mohandseen-Demo-FAST`), covering the public storefront, client request-tracking, and the admin dashboard.\n\n---\n*Documentation prepared for portfolio use — Amr Adel*\n"
-  },
-  {
-    "id": "nextonix",
-    "folder": "Nextonix",
-    "title": "Nextonix",
-    "subtitle": "Agency Showcase — Built by Amr Adel",
-    "category": "angular",
-    "categoryLabel": "Agency Showcase",
-    "tags": [
-      "Agency Web",
-      "Digital Solutions",
-      "Modern UI",
-      "Branding"
-    ],
-    "thumbnail": "assets/project-thumbnails/nextonix.jpg",
-    "videoUrl": "Websites Demos Vedios/Nextonix/Nextonix_LinkedIn_Video_NoMusic.mp4",
-    "hasMd": false,
-    "mdPath": "",
-    "overview": "Nextonix is an interactive web showcase highlighting modern responsive UI design, frontend architecture, and engaging digital experience.",
-    "features": [],
-    "techStackText": "",
-    "fullMarkdown": ""
   },
   {
     "id": "puppyhub",
