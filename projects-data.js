@@ -246,28 +246,6 @@ window.freelanceProjectsData = [
     "fullMarkdown": "# FreshCart\n\n**A Full-Featured E-Commerce Platform — Angular 20 + Tailwind CSS + Stripe**\n\nA grocery-and-everyday-essentials storefront built as a complete, modern Angular application — covering the full shopper journey from browsing and cart management through to a real Stripe-powered checkout, with bilingual (English/Arabic RTL) support and dark mode built in.\n\n---\n\n## Overview\n\nFreshCart is a feature-rich e-commerce front end demonstrating a production-style shopping experience: authentication, category/brand browsing, product catalogue, cart, order history, and a real payment integration. It's built with Angular 20 and styled with Tailwind CSS, and uses Stripe for checkout.\n\n- **Type:** Front-end e-commerce application (portfolio project)\n- **Status:** Demo — product catalogue and orders are demo/sample data; Stripe checkout is a real, functioning payment integration\n- **Visual direction:** Clean white UI with a green primary brand colour; light and dark themes\n\n## Tech Stack\n\n- Angular 20\n- Tailwind CSS\n- Stripe (payment integration)\n\n## Key Features\n\n### Authentication\n- Login and Register forms with validation\n\n### Home\n- Hero banner and quick entry points into shopping\n- \"Shop Popular Categories\" and \"Popular Products\" sections surfaced right on the homepage\n\n### Internationalization & Theming\n- **English / Arabic (RTL)** language toggle — the entire layout mirrors correctly in Arabic, not just the text\n- **Light / Dark mode** toggle\n- Persistent cart badge and signed-in user indicator in the navbar\n\n### Categories\n- Full category grid: Music, Men's Fashion, Women's Fashion, SuperMarket, Baby & Toys, Home, Children's Books, Beauty & Health, Mobiles, Electronics\n\n### Brands\n- Dedicated brand directory with search, spanning electronics (Canon, Dell, Lenovo, Sony, Huawei), fashion (Puma, Nike, Adidas, Reebok, Skechers), and home appliances (Beko, Kenwood, Philips, Toshiba)\n\n### Products\n- Full product catalogue with category tagging, pricing, and star ratings\n- **Add to Cart** with a live toast confirmation (\"Cart Operational — Cart Item Updated Successfully\")\n\n### Shopping Cart\n- Quantity steppers, per-item removal, running subtotal\n- Order Summary panel with subtotal, shipping, and total price, and a clear \"Proceed to Checkout\" action\n\n### My Orders\n- Order history table (Order ID, Date, Items, Total, Payment, Delivery) with a clean empty state for new accounts\n\n### Shipping & Checkout\n- Shipping Details form with live field validation (address, phone, city) and **address autocomplete suggestions**\n- Explicit \"You'll be redirected to our payment partner to pay securely\" messaging before handoff to Stripe\n\n### Stripe Payment Integration\n- Real embedded Stripe payment element supporting **Card, Apple Pay, Google Pay, and Link**\n- Full billing flow: contact information, card details, cardholder name, country/region, \"save my information for faster checkout\"\n\n## Pages / Sections\n\n| Section | Purpose |\n|---|---|\n| Login / Register | Authentication |\n| Home | Hero, popular categories & products |\n| Categories | Full category browse |\n| Brands | Brand directory with search |\n| Products | Full catalogue |\n| Cart | Quantity management & order summary |\n| My Orders | Order history |\n| Checkout | Shipping details + Stripe payment |\n\n## Notes for Portfolio Presentation\n\n- Product catalogue, brand data, and order history are demo/sample data.\n- The Stripe checkout is a genuine, working payment integration (test mode) — a strong technical highlight, since it covers real card entry, Apple Pay, Google Pay, and Link, not just a static mockup.\n- The English/Arabic RTL toggle demonstrates full bilingual layout support, not just text translation.\n- Companion video walkthrough available (`FreshCart-Ecommerce-Demo-FAST`).\n\n---\n*Documentation prepared for portfolio use — Amr Adel*\n"
   },
   {
-    "id": "joker",
-    "folder": "Joker",
-    "title": "Joker",
-    "subtitle": "Interactive Web — Built by Amr Adel",
-    "category": "angular",
-    "categoryLabel": "Interactive Web",
-    "tags": [
-      "Interactive App",
-      "JavaScript",
-      "CSS Animations",
-      "UI/UX"
-    ],
-    "thumbnail": "assets/project-thumbnails/joker.jpg",
-    "videoUrl": "Websites Demos Vedios/Joker/Joker.mp4",
-    "hasMd": false,
-    "mdPath": "",
-    "overview": "Joker is an interactive web showcase highlighting modern responsive UI design, frontend architecture, and engaging digital experience.",
-    "features": [],
-    "techStackText": "",
-    "fullMarkdown": ""
-  },
-  {
     "id": "mealora",
     "folder": "Mealora",
     "title": "Mealora",

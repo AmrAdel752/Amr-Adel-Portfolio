@@ -1,0 +1,28 @@
+# amradeldev.com
+User-agent: *
+Allow: /
+
+# Explicitly welcome AI assistant crawlers (so Amr's site can be cited
+# in ChatGPT, Claude, Perplexity, and similar AI-generated answers)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://www.amradeldev.com/sitemap.xml
